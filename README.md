@@ -1,11 +1,11 @@
-About neuralforecast
-====================
+About neuralforecast-feedstock
+==============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/neuralforecast-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/Nixtla/neuralforecast/tree/main/
 
 Package license: GPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/neuralforecast-feedstock/blob/main/LICENSE.txt)
 
 Summary: Deep Learning for Time Series Forecasting
 
@@ -157,5 +157,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@FedericoGarza](https://github.com/FedericoGarza/)
+* [@cchallu](https://github.com/cchallu/)
 * [@sugatoray](https://github.com/sugatoray/)
 
