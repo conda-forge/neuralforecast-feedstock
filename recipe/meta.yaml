@@ -10,7 +10,7 @@ source:
   sha256: 71db98ad9aff0aa7bd4dbe8665c41df4e0401a5b10078e28061b16ac7d070489
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps
 
@@ -58,3 +58,4 @@ extra:
     - sugatoray
     - cchallu
     - FedericoGarza
+    - jmoralez
