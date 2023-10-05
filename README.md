@@ -159,6 +159,6 @@ Feedstock Maintainers
 
 * [@FedericoGarza](https://github.com/FedericoGarza/)
 * [@cchallu](https://github.com/cchallu/)
-* [@sugatoray](https://github.com/sugatoray/)
 * [@jmoralez](https://github.com/jmoralez/)
+* [@sugatoray](https://github.com/sugatoray/)
 
