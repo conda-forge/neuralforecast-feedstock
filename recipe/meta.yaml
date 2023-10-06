@@ -27,7 +27,7 @@ requirements:
     - pytorch >=2.0.0
     - pytorch-lightning >=2.0.0
     - ray-tune >=2.2.0
-    - utilsforecast>=0.0.6
+    - utilsforecast >=0.0.6
 
 test:
   imports:
