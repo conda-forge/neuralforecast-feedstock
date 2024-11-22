@@ -1,13 +1,13 @@
 {% set name = "neuralforecast" %}
-{% set version = "1.7.5" %}
+{% set version = "1.7.6" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
-  sha256: df9c2c82d6e535c6abd1c27aba9539f210eb5ecf0b5e16e7e3b95756aebd46dc
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
+  sha256: 098d5504c82ff9982373f6d2125b95ca139f05dbcab23ce929fb111995f0bd80
 
 build:
   number: 0
@@ -16,10 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - coreforecast >=0.0.7
     - fsspec
     - numpy >=1.21.6
@@ -28,9 +29,11 @@ requirements:
     - pytorch >=2.0.0
     - pytorch-lightning >=2.0.0
     - ray-tune >=2.2.0
-    - utilsforecast >=0.0.26
+    - utilsforecast >=0.2.3
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - neuralforecast
   ## Skipping pip-check (as build keeps failing)
