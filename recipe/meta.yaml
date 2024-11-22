@@ -1,5 +1,5 @@
 {% set name = "neuralforecast" %}
-{% set version = "1.7.5" %}
+{% set version = "1.7.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
-  sha256: df9c2c82d6e535c6abd1c27aba9539f210eb5ecf0b5e16e7e3b95756aebd46dc
+  sha256: 098d5504c82ff9982373f6d2125b95ca139f05dbcab23ce929fb111995f0bd80
 
 build:
   number: 0
