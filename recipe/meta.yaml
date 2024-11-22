@@ -6,7 +6,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
   sha256: 098d5504c82ff9982373f6d2125b95ca139f05dbcab23ce929fb111995f0bd80
 
 build:
@@ -16,10 +16,11 @@ build:
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
+    - setuptools
   run:
-    - python >=3.8
+    - python >={{ python_min }}
     - coreforecast >=0.0.7
     - fsspec
     - numpy >=1.21.6
@@ -31,6 +32,8 @@ requirements:
     - utilsforecast >=0.0.26
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - neuralforecast
   ## Skipping pip-check (as build keeps failing)
