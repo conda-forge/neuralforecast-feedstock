@@ -45,8 +45,9 @@ test:
 about:
   home: https://github.com/Nixtla/neuralforecast/tree/main/
   summary: Deep Learning for Time Series Forecasting
-  license: GPL-3.0-only
+  license: Apache-2.0
   license_file: LICENSE
+  license_family: APACHE
   description: |
     State-of-the-art time series forecasting for PyTorch.
 
@@ -57,7 +58,7 @@ about:
 
     PyPI: [https://pypi.org/project/neuralforecast/](https://pypi.org/project/neuralforecast/)
 
-  doc_url: https://nixtla.github.io/neuralforecast
+  doc_url: https://nixtlaverse.nixtla.io/neuralforecast/docs/getting-started/introduction.html
   dev_url: https://github.com/Nixtla/neuralforecast/tree/main/
 
 extra:
