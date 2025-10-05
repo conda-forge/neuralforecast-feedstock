@@ -159,11 +159,14 @@ Feedstock Maintainers
 
 * [@AzulGarza](https://github.com/AzulGarza/)
 * [@JQGoh](https://github.com/JQGoh/)
+* [@MMenchero](https://github.com/MMenchero/)
 * [@cchallu](https://github.com/cchallu/)
 * [@elephaint](https://github.com/elephaint/)
+* [@goodwanghan](https://github.com/goodwanghan/)
 * [@jmoralez](https://github.com/jmoralez/)
 * [@marcopeix](https://github.com/marcopeix/)
 * [@mergenthaler](https://github.com/mergenthaler/)
 * [@nasaul](https://github.com/nasaul/)
+* [@ngupta23](https://github.com/ngupta23/)
 * [@sugatoray](https://github.com/sugatoray/)
 
