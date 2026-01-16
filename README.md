@@ -1,4 +1,4 @@
-About neuralforecast-feedstock 
+About neuralforecast-feedstock
 ==============================
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/neuralforecast-feedstock/blob/main/LICENSE.txt)
