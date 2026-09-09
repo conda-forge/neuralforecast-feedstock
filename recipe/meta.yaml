@@ -1,13 +1,13 @@
 {% set name = "neuralforecast" %}
-{% set version = "3.2.1" %}
+{% set version = "3.2.2" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
-  sha256: e1b2e371c0002ecdebe9af1bf7c0f2d9f4da6c8e3688226001badaff94425b90
+  url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
+  sha256: 0f98002aa48728dfc54768da3791531e184d01c9e1af037a2172b763d152edd1
 
 build:
   number: 0
