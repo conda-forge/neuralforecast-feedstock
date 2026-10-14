@@ -1,5 +1,5 @@
 {% set name = "neuralforecast" %}
-{% set version = "3.2.2" %}
+{% set version = "3.3.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
-  sha256: 0f98002aa48728dfc54768da3791531e184d01c9e1af037a2172b763d152edd1
+  sha256: 73fbb9b8ba194c6f06e64d2f137855c98616af7f2488c7107abb05516a22ebe7
 
 build:
   number: 0
@@ -28,6 +28,7 @@ requirements:
     - pandas >=1.3.5
     - pytorch >=2.0.0
     - pytorch-lightning >=2.0.0
+    - safetensors >=0.8.0
     - ray-tune >=2.2.0
     - utilsforecast >=0.2.3
     - scipy
