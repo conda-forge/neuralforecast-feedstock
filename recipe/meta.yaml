@@ -1,5 +1,5 @@
 {% set name = "neuralforecast" %}
-{% set version = "3.3.1" %}
+{% set version = "3.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/neuralforecast-{{ version }}.tar.gz
-  sha256: e8eab28dc61b1dacfefa1813a287e3119123f4b1c58f0224eb6351575fb4022d
+  sha256: f8258b44c003f43f06de6a5672680d79961f4361282ebd70d53434a51a3ca28d
 
 build:
   number: 0
